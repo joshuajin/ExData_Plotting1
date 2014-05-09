@@ -1,8 +1,11 @@
+## This code is for Assignment_1 Plot1.
+## Note: the input file household_power_consumption.txt it too big to upload to ## github. 
+##
 ## set up enviroment, need install sqldf package first
 getwd()
 library(sqldf)
-rm(mySqlStmt)
-rm(myData)
+#rm(mySqlStmt)
+#rm(myData)
 
 ## setup to use sqldf package to read input data file
 myFile <- "./household_power_consumption.txt"  # input data file
